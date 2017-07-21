@@ -2,7 +2,7 @@ $(document).ready(function(){
   var myHeight = $(window).height();
   myHeight = myHeight / 2;
   $('header').css('height', myHeight);
-  var marg = - myHeight * (4 / 5);
+  var marg = - myHeight * (5 / 6);
   $('.full-wrapper-div').css('margin-top', marg);
 
   if ($(window).width() <= 990) {
