@@ -1,5 +1,102 @@
+/*-------------------------------------
+
+Top of Page Styling
+
+--------------------------------------*/
+
+.blog-header {
+  width: 100%;
+  margin: 0;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/blog-header.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.full-wrapper-div {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.full-wrapper-div h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 3.8em;
+  color: white;
+  text-shadow: 0 0 1.6em rgba(0, 0, 0, .3);
+}
+
+.blog-wrapper {
+  padding: 50px 35px 50px 35px;
+  width: auto;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 .5em 1.6em rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 990px) {
+  .blog-wrapper {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .blog-wrapper {
+    padding: 0;
+    padding-top: 35px;
+  }
+}
+
+/* Pagination Styling */
+
+.pagination {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.pagination a {
+
+}
+
+.pagination button {
+  color: white;
+  background-color: #2ecc71;
+  border: none;
+  font-size: 2.3em;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.pagination button:hover {
+  background-color: #54d98c;
+}
+
+.pagination span {
+  color: #8d8d8d;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*-------------------------------------
+
+Blog List Styling
+
+--------------------------------------*/
+
 .blog-list {
-  max-width: 950px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,7 +172,7 @@
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 925px) {
   .blog-list {
     margin-left: 6%;
     margin-right: 6%;
