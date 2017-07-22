@@ -168,7 +168,7 @@ Blog List Styling
   margin-top: 35px;
   margin-bottom: 35px;
   width: 99%;
-  border: 0;
+  border: none;
   height: 1px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
