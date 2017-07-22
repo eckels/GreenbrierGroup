@@ -4,15 +4,28 @@ Structure Styling
 
 --------------------------------------*/
 
-.blog-wrap {
-  padding-left: 30px;
-  padding-right: 30px;
-  max-width: 700px;
-  margin: 50px auto 80px auto;
+nav {
+border-bottom: solid rgba(0,0,0,.15) 1px;
 }
 
-@media (max-width: ) {
-/* fix top margin in this selector */
+.blog-wrap {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 700px;
+  margin: 60px auto 80px auto;
+}
+
+@media (max-width: 375px) {
+  .blog-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .blog-wrap {
+    margin-top: 40px;
+  }
 }
 
 /*-------------------------------------
@@ -29,15 +42,13 @@ Title Area Styling
   margin: 0;
   font-family: 'Merriweather', serif;
   font-weight: normal;
-  font-size: 2.3em;
+  font-size: 2.5em;
 }
 
 .author {
   margin: 0;
-  margin-top: 15px;
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 1em;
-  border-top: 1px solid rgba(0,0,0,.15);
   color: gray;
 }
 
