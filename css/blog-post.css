@@ -65,7 +65,7 @@ Title Area Styling
 
 @media (max-width: 500px) {
   .title-area h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .author {
     font-size: .9em;
@@ -163,18 +163,20 @@ Blog Styling
   margin: -10px 0 12px 0;
 }
 
+@media (max-width: 550px) {
+  .content-area h3 {
+    font-size: 1.7em;
+  }
+
+  .content-area h5 {
+    font-size: 1.3em;
+  }
+}
+
 @media (max-width: 420px) {
   .content-area img {
     width: 100%;
     margin: 12px 0 12px 0;
     height: auto;
-  }
-
-  .content-area h3 {
-    font-size: 1.8em;
-  }
-
-  .content-area h5 {
-    font-size: 1.4em;
   }
 }
